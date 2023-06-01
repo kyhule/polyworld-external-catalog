@@ -63,7 +63,7 @@ jobs:
           -PartifactoryPassword=${{ secrets.GITHUB_TOKEN }}
 
       - name: Release
-        if: ${{ env.version-stage == 'final' }}
+        if: env.version-stage == 'final' && github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         run: >
           ./gradlew
           githubRelease 
