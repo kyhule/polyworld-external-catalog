@@ -48,20 +48,19 @@ jobs:
         uses: gradle/gradle-build-action@v2
 
       - name: Build
-        run: ./gradlew generateCatalogAsToml
+        run: >
+          ./gradlew generateCatalogAsToml
+          --no-configuration-cache
 
       - name: Publish
         if: github.event_name != 'pull_request'
         run: >
           ./gradlew publish
-          run: >
-            ./gradlew
-            publish
-            --no-configuration-cache
-            -Preckon.scope=${{ env.version-scope }}
-            -Preckon.stage=${{ env.version-stage }}
-            -PgithubPackagesUsername=kyhule
-            -PartifactoryPassword=${{ secrets.GITHUB_TOKEN }}
+          --no-configuration-cache
+          -Preckon.scope=${{ env.version-scope }}
+          -Preckon.stage=${{ env.version-stage }}
+          -PgithubPackagesUsername=kyhule
+          -PartifactoryPassword=${{ secrets.GITHUB_TOKEN }}
 
       - name: Release
         if: ${{ env.version-stage == 'final' }}
