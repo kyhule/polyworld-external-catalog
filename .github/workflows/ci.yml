@@ -60,7 +60,7 @@ jobs:
           -Preckon.scope=${{ env.version-scope }}
           -Preckon.stage=${{ env.version-stage }}
           -PgithubPackagesUsername=kyhule
-          -PartifactoryPassword=${{ secrets.GITHUB_TOKEN }}
+          -PgithubPackagesPassword=${{ secrets.GITHUB_TOKEN }}
 
       - name: Release
         if: env.version-stage == 'final' && github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
