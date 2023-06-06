@@ -142,7 +142,7 @@ hamcrest = "org.hamcrest:hamcrest:2.2"
 javax-annotationApi = "javax.annotation:javax.annotation-api:1.2"
 javax-inject = "javax.inject:javax.inject:1"
 junit = "junit:junit:4.13.2"
-kotlinLogging = "io.github.microutils:kotlin-logging-jvm:2.1.23"
+kotlinLogging = "io.github.microutils:kotlin-logging-jvm:3.0.5"
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinx-coroutines" }
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
 kotlinx-coroutines-coreJvm = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm", version.ref = "kotlinx-coroutines" }
