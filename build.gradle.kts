@@ -31,6 +31,7 @@ publishing {
 }
 
 reckon {
+    setDefaultInferredScope("minor")
     setScopeCalc(calcScopeFromProp())
     snapshots()
     setStageCalc(calcStageFromProp())
