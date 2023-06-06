@@ -2,5 +2,21 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base"
+  ],
+  "prConcurrentLimit": 0,
+  "prHourlyLimit": 0,
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "com.google.guava:guava"
+      ],
+      "allowedVersions": "/.+-android/"
+    }
+  ],
+  "hostRules": [
+    {
+      "matchHost": "jcenter.bintray.com",
+      "enabled": false
+    }
   ]
 }
