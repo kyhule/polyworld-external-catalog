@@ -1,6 +1,6 @@
 [versions]
 accompanist = "0.30.1"
-androidx-activity = "1.7.1"
+androidx-activity = "1.7.2"
 androidx-annotation = "1.6.0"
 androidx-arch-core = "2.2.0"
 androidx-core = "1.9.0"
@@ -19,11 +19,11 @@ androidx-test-runner = "1.4.0"
 androidx-test-uiautomator = "2.2.0"
 androidx-transition = "1.4.1"
 anvil = "2.4.4"
-coil = "1.4.0"
+coil = "2.4.0"
 dagger = "2.45"
-kotlinx-coroutines = "1.6.4"
+kotlinx-coroutines = "1.7.1"
 kotlinx-serialization = "1.5.1"
-moshi = "1.8.0"
+moshi = "1.15.0"
 okhttp3 = "4.9.3"
 okio = "2.8.0"
 
@@ -142,7 +142,7 @@ hamcrest = "org.hamcrest:hamcrest:2.2"
 javax-annotationApi = "javax.annotation:javax.annotation-api:1.2"
 javax-inject = "javax.inject:javax.inject:1"
 junit = "junit:junit:4.13.2"
-kotlinLogging = "io.github.microutils:kotlin-logging-jvm:2.1.23"
+kotlinLogging = "io.github.microutils:kotlin-logging-jvm:3.0.5"
 kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinx-coroutines" }
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
 kotlinx-coroutines-coreJvm = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm", version.ref = "kotlinx-coroutines" }
@@ -152,7 +152,7 @@ kotlinx-coroutines-rx2 = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-rx
 kotlinx-coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "kotlinx-coroutines" }
 kotlinx-serialization-core = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core", version.ref = "kotlinx-serialization" }
 kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinx-serialization" }
-logbackAndroid = "com.github.tony19:logback-android:2.0.1"
+logbackAndroid = "com.github.tony19:logback-android:3.0.0"
 moshi = { module = "com.squareup.moshi:moshi", version.ref = "moshi" }
 moshiKotlin = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "moshi" }
 moshiKotlinCodegen = { module = "com.squareup.moshi:moshi-kotlin-codegen", version.ref = "moshi" }
