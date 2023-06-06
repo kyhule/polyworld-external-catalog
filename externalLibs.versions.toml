@@ -139,7 +139,7 @@ dagger = { module = "com.google.dagger:dagger", version.ref = "dagger" }
 dagger-compiler = { module = "com.google.dagger:dagger-compiler", version.ref = "dagger" }
 guava = "com.google.guava:guava:31.1-android"
 hamcrest = "org.hamcrest:hamcrest:2.2"
-javax-annotationApi = "javax.annotation:javax.annotation-api:1.2"
+javax-annotationApi = "javax.annotation:javax.annotation-api:1.3.2"
 javax-inject = "javax.inject:javax.inject:1"
 junit = "junit:junit:4.13.2"
 kotlinLogging = "io.github.microutils:kotlin-logging-jvm:3.0.5"
