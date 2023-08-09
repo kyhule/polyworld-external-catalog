@@ -42,7 +42,7 @@ androidx-annotation = { module = "androidx.annotation:annotation", version.ref =
 androidx-appcompat = "androidx.appcompat:appcompat:1.6.1"
 androidx-arch-core = { module = "androidx.arch.core:core-runtime", version.ref = "androidx-arch-core" }
 androidx-arch-coreTesting = { module = "androidx.arch.core:core-testing", version.ref = "androidx-arch-core" }
-androidx-browser = "androidx.browser:browser:1.5.0"
+androidx-browser = "androidx.browser:browser:1.6.0"
 androidx-cardview = "androidx.cardview:cardview:1.0.0"
 androidx-compose-animation = "androidx.compose.animation:animation:1.4.3"
 androidx-compose-animationCore = "androidx.compose.animation:animation-core:1.4.3"
