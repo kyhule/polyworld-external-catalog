@@ -1,10 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base"
+    "kyhule/polyworld-renovate:android"
   ],
-  "prConcurrentLimit": 0,
-  "prHourlyLimit": 0,
   "packageRules": [
     {
       "matchPackageNames": [

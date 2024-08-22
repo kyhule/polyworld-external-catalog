@@ -1,4 +1,3 @@
-@Suppress("DSL_SCOPE_VIOLATION")
 plugins {
     id("version-catalog")
     alias(libs.plugins.githubRelease)
@@ -9,6 +8,17 @@ plugins {
 catalog {
     versionCatalog {
         from(files("externalLibs.versions.toml"))
+
+        fun mergeCatalog(catalog: VersionCatalog) {
+            catalog.libraryAliases.forEach { alias ->
+                val library = catalog.findLibrary(alias).get().get()
+                library(alias, "${library.group}:${library.name}:${library.version}")
+            }
+        }
+
+        mergeCatalog(versionCatalogs.find("coilLibs").get())
+        mergeCatalog(versionCatalogs.find("composeLibs").get())
+        mergeCatalog(versionCatalogs.find("firebaseLibs").get())
     }
 }
 
