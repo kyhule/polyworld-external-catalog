@@ -128,7 +128,7 @@ androidx-test-uiautomator = { module = "androidx.test.uiautomator:uiautomator", 
 androidx-transition = { module = "androidx.transition:transition", version.ref = "androidx-transition" }
 androidx-transitionKtx = { module = "androidx.transition:transition-ktx", version.ref = "androidx-transition" }
 androidx-viewpager = "androidx.viewpager:viewpager:1.0.0"
-androidx-viewpager2 = "androidx.viewpager2:viewpager2:1.0.0"
+androidx-viewpager2 = "androidx.viewpager2:viewpager2:1.1.0"
 anvilAnnotations = { module = "com.squareup.anvil:annotations", version.ref = "anvil" }
 assertj-core = "org.assertj:assertj-core:3.24.2"
 coil = { module = "io.coil-kt:coil", version.ref = "coil" }
