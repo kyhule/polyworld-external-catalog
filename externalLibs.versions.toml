@@ -44,7 +44,7 @@ androidx-arch-core = { module = "androidx.arch.core:core-runtime", version.ref =
 androidx-arch-coreTesting = { module = "androidx.arch.core:core-testing", version.ref = "androidx-arch-core" }
 androidx-browser = "androidx.browser:browser:1.5.0"
 androidx-cardview = "androidx.cardview:cardview:1.0.0"
-androidx-compose-animation = "androidx.compose.animation:animation:1.4.3"
+androidx-compose-animation = "androidx.compose.animation:animation:1.7.8"
 androidx-compose-animationCore = "androidx.compose.animation:animation-core:1.4.3"
 androidx-compose-animationGraphics = "androidx.compose.animation:animation-graphics:1.4.3"
 androidx-compose-foundation = "androidx.compose.foundation:foundation:1.4.3"
