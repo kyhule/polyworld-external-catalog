@@ -75,7 +75,7 @@ androidx-compose-uiUnit = "androidx.compose.ui:ui-unit:1.4.3"
 androidx-compose-uiUtil = "androidx.compose.ui:ui-util:1.4.3"
 androidx-compose-uiViewbinding = "androidx.compose.ui:ui-viewbinding:1.4.3"
 androidx-constraintlayout = "androidx.constraintlayout:constraintlayout:2.1.4"
-androidx-constraintlayout-compose = "androidx.constraintlayout:constraintlayout-compose:1.0.1"
+androidx-constraintlayout-compose = "androidx.constraintlayout:constraintlayout-compose:1.1.1"
 androidx-coordinatorlayout = "androidx.coordinatorlayout:coordinatorlayout:1.2.0"
 androidx-core = { module = "androidx.core:core", version.ref = "androidx-core" }
 androidx-coreKtx = { module = "androidx.core:core-ktx", version.ref = "androidx-core" }
