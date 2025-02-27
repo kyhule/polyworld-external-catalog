@@ -29,7 +29,7 @@ dependencyResolutionManagement {
             fromBom("androidx.compose:compose-bom:2024.08.00")
         }
         createWithBomSupport("firebaseLibs") {
-            fromBom("com.google.firebase:firebase-bom:33.1.2")
+            fromBom("com.google.firebase:firebase-bom:33.10.0")
         }
     }
 }
