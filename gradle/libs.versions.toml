@@ -1,4 +1,4 @@
 [plugins]
 githubRelease = { id = "com.github.breadmoirai.github-release", version = "2.4.1" }
 mavenPublish = { id = "com.vanniktech.maven.publish", version = "0.31.0" }
-reckon = { id = "org.ajoberstar.reckon", version = "0.18.3" }
+reckon = { id = "org.ajoberstar.reckon", version = "0.19.1" }
